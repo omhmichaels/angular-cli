@@ -380,5 +380,3 @@ workflows:
           <<: *only_release_branches
           requires:
             - build
-            - test
-            - e2e-cli
